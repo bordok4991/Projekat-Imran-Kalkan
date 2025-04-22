@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Proizvodi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 40px;
+        }
+        .sadrzaj {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .proizvod {
+            background-color: white;
+            border-radius: 20px;
+            padding: 30px;
+            width: 300px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .proizvod img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover; 
+            border-radius: 15px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.5;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="sadrzaj">
+        <!-- Prvi proizvod -->
+        <div class="proizvod">
+            <img src="https://i.pinimg.com/736x/c2/12/8b/c2128b335410345e7bd0b725f3cc4f98.jpg" alt="Šarene Olovke">
+            <h2>Šarene Olovke</h2>
+            <p>Ove šarene olovke su odlične za crtanje i pisanje. Djeca ih stvarno vole!</p>
+            <p><strong>Cijena:</strong> 1,50 KM</p>
+            <p><strong>Prodavnice:</strong> Konzum, Bingo, Čojo</p>
+        </div>
+
+        <!-- Drugi proizvod -->
+        <div class="proizvod">
+            <img src="https://alf.rs/wp-content/uploads/2021/08/52650.png" alt="Gumica">
+            <h2>Gumica za Brisanje</h2>
+            <p>Mekana gumica koja savršeno briše bez tragova. Idealna za školu!</p>
+            <p><strong>Cijena:</strong> 0,80 KM</p>
+            <p><strong>Prodavnice:</strong> Bingo, Čojo</p>
+        </div>
+    </div>
+</body>
+</html>
